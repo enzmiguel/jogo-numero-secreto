@@ -1,5 +1,6 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 50;
+
+let numeroLimite = 40;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -17,7 +18,7 @@ function limparCampo() {
 }
 
 function exibirMensagemInicial() {
-    escreverTexto('h1', 'Jogo do número secreto.');
+    escreverTexto('h1', 'Jogo do número secreto');
     escreverTexto('p', `Digite um número entre 1 e ${numeroLimite}`);
 }
 
